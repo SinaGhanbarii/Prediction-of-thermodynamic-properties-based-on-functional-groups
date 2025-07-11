@@ -33,6 +33,26 @@ The project aims to evaluate the effect of feature engineering and model complex
   - Histogram-Based Gradient Boosting
 - **Neural Networks**:
   - Feedforward dense architecture with hyperparameter tuning via Keras Tuner
+ 
+
+
+## 📓 Notebooks
+
+| Notebook Filename                             | Description                                                  |
+|----------------------------------------------|--------------------------------------------------------------|
+| `Benchmark After Feature Engineering.ipynb`   | Benchmarking model performance after applying feature engineering |
+| `Benchmark Before Feature Engineering.ipynb`  | Benchmarking model performance using raw descriptors          |
+| `Classic ML After Feature Engineering.ipynb`  | Classical ML models trained on engineered features            |
+| `Classic ML Before Feature Engineering.ipynb` | Classical ML models trained on base descriptors               |
+| `Dataset Visualization.ipynb`                | Visual analysis and feature exploration of the dataset        |
+| `Functional Groups Extraction.ipynb`         | Functional group counting using RDKit Fragment Catalog        |
+| `Neural Network After Feature Engineering.ipynb` | Neural network training and evaluation with engineered features |
+| `Neural Network Before Feature Engineering.ipynb` | Neural network performance on unprocessed descriptors         |
+| `xyz Decoder.ipynb`                          | Converts `.xyz` molecular files to readable formats (e.g., SMILES) |
+| `xyz parser.ipynb`                           | Parses `.xyz` files and extracts necessary molecular details  |
+
+
+  
 
 ## 📊 Results Summary
 
